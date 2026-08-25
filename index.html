@@ -356,26 +356,26 @@
   .focus-item .body span{color:var(--muted);font-size:13.5px;}
 
   .terminal{
-    background:var(--navy);border-radius:16px;overflow:hidden;
-    box-shadow:var(--shadow-lg);
+    background:var(--white);border:1px solid var(--line);border-radius:16px;overflow:hidden;
+    box-shadow:var(--shadow-md);
   }
   .terminal-bar{
     display:flex;align-items:center;gap:8px;padding:13px 16px;
-    background:rgba(255,255,255,.05);border-bottom:1px solid rgba(255,255,255,.09);
+    background:var(--bg-alt);border-bottom:1px solid var(--line-soft);
   }
   .terminal-bar span{width:11px;height:11px;border-radius:50%;}
   .terminal-bar .t1{background:#ff6b62;}
   .terminal-bar .t2{background:#ffc45c;}
   .terminal-bar .t3{background:#43d69e;}
-  .terminal-bar .fname{margin-left:10px;font-family:var(--mono);font-size:11.5px;color:rgba(255,255,255,.55);}
+  .terminal-bar .fname{margin-left:10px;font-family:var(--mono);font-size:11.5px;color:var(--muted);}
   .terminal-body{
     padding:24px 22px;font-family:var(--mono);font-size:12.5px;line-height:2;
-    color:rgba(255,255,255,.85);overflow-x:auto;
+    color:var(--text);overflow-x:auto;
   }
-  .terminal-body .k{color:#63e6be;}
-  .terminal-body .s{color:#74c0fc;}
-  .terminal-body .c{color:rgba(255,255,255,.4);}
-  .terminal-body .prop{color:#b8e3ff;}
+  .terminal-body .k{color:var(--green-deep);}
+  .terminal-body .s{color:var(--blue);}
+  .terminal-body .c{color:var(--muted);}
+  .terminal-body .prop{color:#7048c9;}
 
   /* ============ skills ============ */
   #skills{background:var(--bg-alt);}
@@ -490,31 +490,31 @@
   #contact{padding-bottom:90px;}
   .contact-panel{
     position:relative;overflow:hidden;border-radius:24px;
-    background:linear-gradient(135deg,#0a2f5c 0%,#0b5e57 60%,#0a6e52 100%);
-    padding:72px 48px;text-align:center;color:#fff;
-    box-shadow:var(--shadow-lg);
+    background:linear-gradient(135deg,#eaf3fd 0%,#e8f8f0 100%);
+    border:1px solid var(--line);
+    padding:72px 48px;text-align:center;color:var(--navy);
+    box-shadow:var(--shadow-md);
   }
   @media (max-width:640px){.contact-panel{padding:54px 22px;}}
   .contact-panel::before,.contact-panel::after{
-    content:'';position:absolute;border-radius:50%;filter:blur(70px);pointer-events:none;
+    content:'';position:absolute;border-radius:50%;filter:blur(80px);pointer-events:none;
   }
-  .contact-panel::before{width:340px;height:340px;top:-140px;left:-90px;background:rgba(56,152,255,.35);}
-  .contact-panel::after{width:300px;height:300px;bottom:-130px;right:-70px;background:rgba(27,210,144,.3);}
+  .contact-panel::before{width:340px;height:340px;top:-140px;left:-90px;background:rgba(14,111,224,.12);}
+  .contact-panel::after{width:300px;height:300px;bottom:-130px;right:-70px;background:rgba(11,176,123,.12);}
   .contact-panel .inner{position:relative;z-index:1;}
-  .contact-panel .eyebrow{justify-content:center;color:#8fe6c6;}
-  .contact-panel .eyebrow::before{background:rgba(255,255,255,.5);}
+  .contact-panel .eyebrow{justify-content:center;}
   .contact-panel h2{
     font-family:var(--display);font-weight:800;font-size:clamp(26px,4vw,38px);
     letter-spacing:-.02em;margin-bottom:16px;
   }
-  .contact-panel p{color:rgba(255,255,255,.78);max-width:500px;margin:0 auto 36px;font-size:15px;}
+  .contact-panel p{color:var(--text);max-width:500px;margin:0 auto 36px;font-size:15px;}
   .contact-links{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;}
-  .btn-light{background:#fff;color:var(--navy);box-shadow:0 12px 30px rgba(0,0,0,.22);}
-  .btn-light:hover{transform:translateY(-3px);box-shadow:0 18px 40px rgba(0,0,0,.3);}
-  .btn-outline-w{color:#fff;border:1.5px solid rgba(255,255,255,.45);background:rgba(255,255,255,.06);}
-  .btn-outline-w:hover{border-color:#fff;background:rgba(255,255,255,.14);transform:translateY(-3px);}
+  .btn-light{background:#fff;color:var(--navy);border:1px solid var(--line);box-shadow:var(--shadow-sm);}
+  .btn-light:hover{transform:translateY(-3px);box-shadow:var(--shadow-md);}
+  .btn-outline-w{color:var(--navy);border:1.5px solid rgba(10,37,64,.28);background:rgba(255,255,255,.65);}
+  .btn-outline-w:hover{border-color:var(--navy);background:#fff;transform:translateY(-3px);}
   .contact-note{
-    margin-top:30px;font-family:var(--mono);font-size:11.5px;color:rgba(255,255,255,.55);
+    margin-top:30px;font-family:var(--mono);font-size:11.5px;color:var(--muted);
     letter-spacing:.04em;
   }
 
