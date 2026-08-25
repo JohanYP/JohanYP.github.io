@@ -2,7 +2,7 @@
 
 Sitio portafolio de una sola página para **Johan Yandun**, Desarrollador Full Stack Jr. especializado en agentes autónomos con LLMs, MCP y calidad de datos.
 
-Construido con HTML, CSS y JavaScript puro (sin frameworks, sin build step) — animaciones de scroll, grafo animado en el hero, contadores y navegación con sección activa.
+Construido con HTML, CSS y JavaScript puro (sin frameworks, sin build step) — paleta clara de blancos, azules y verdes (confianza y crecimiento), animaciones de scroll (reveals, contadores, barra de progreso), foto de perfil con anillo giratorio y efecto tilt 3D, typewriter de roles, marquee de tecnologías, navegación con sección activa y menú móvil.
 
 ## Estructura
 
@@ -50,7 +50,7 @@ Alternativa rápida sin conectar GitHub: instala la CLI (`npm i -g vercel`) y de
 
 ## Editar contenido
 
-Todo el contenido (texto, enlaces, proyectos) está directamente en `index.html`, dentro de las secciones marcadas con comentarios (`<!-- HERO -->`, `<!-- PROJECTS -->`, etc.). Los colores y tipografías están centralizados como variables CSS al inicio del `<style>` (`:root { --bg-0, --amber, --teal, ... }`).
+Todo el contenido (texto, enlaces, proyectos) está directamente en `index.html`, dentro de las secciones marcadas con comentarios (`<!-- HERO -->`, `<!-- PROJECTS -->`, etc.). Los colores y tipografías están centralizados como variables CSS al inicio del `<style>` (`:root { --bg, --navy, --blue, --green, ... }`).
 
 ## Contacto
 
