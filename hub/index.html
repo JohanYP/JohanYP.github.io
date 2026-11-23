@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acceso — Johan</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh; display: grid; place-items: center; padding: 24px;
+      background: radial-gradient(circle at top, #18181b 0%, #09090b 65%);
+      color: #f4f4f5; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    .box { width: 100%; max-width: 420px; }
+    h1 { font-size: 1.2rem; font-weight: 700; margin-bottom: 6px; text-align: center; }
+    p { font-size: 0.84rem; color: #a1a1aa; text-align: center; margin-bottom: 22px; }
+    .grid { display: grid; gap: 12px; }
+    a {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 16px 18px; border-radius: 14px; text-decoration: none;
+      background: #111113; border: 1px solid #27272a; color: #f4f4f5;
+      transition: border-color .15s, background .15s;
+    }
+    a:hover { border-color: #3f3f46; background: #18181b; }
+    .title { font-weight: 600; font-size: 0.98rem; }
+    .meta { font-size: 0.78rem; color: #71717a; margin-top: 2px; }
+    .arrow { color: #71717a; font-size: 1.1rem; }
+  </style>
+</head>
+<body>
+  <main class="box">
+    <h1>Accesos Privados</h1>
+    <p>Cada servicio solicita su código de 6 dígitos en Bitwarden / Vaultwarden.</p>
+    <div class="grid">
+      <a href="https://drive.tail117d4e.ts.net/">
+        <div><div class="title">TeleDrive</div><div class="meta">Nube privada · Sesión temporal</div></div>
+        <span class="arrow">→</span>
+      </a>
+      <a href="https://music.tail117d4e.ts.net/">
+        <div><div class="title">SpotiSound</div><div class="meta">Música · Sesión temporal</div></div>
+        <span class="arrow">→</span>
+      </a>
+      <a href="https://vault.tail117d4e.ts.net/">
+        <div><div class="title">Vaultwarden</div><div class="meta">Gestor de contraseñas y Authenticator</div></div>
+        <span class="arrow">→</span>
+      </a>
+      <a href="https://vestidor.tail117d4e.ts.net/">
+        <div><div class="title">Vestidor</div><div class="meta">Aplicación privada</div></div>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+  </main>
+</body>
+</html>
